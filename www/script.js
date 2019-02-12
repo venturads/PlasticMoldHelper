@@ -56,7 +56,7 @@ document.getElementById('content-news').addEventListener('click', getNews);
 
 // get wordpress api json data
 function getGar (){
-    const n2 = 'http://venturads.com/weldinghelper/api/get_category_posts/?slug=solidworks';
+    const n2 = 'http://venturads.com/weldinghelper/api/get_category_posts/?slug=plasticmold';
 
   document.getElementById("root").innerHTML = "<div class='loader'></div>";
     // alert("loading...");
@@ -123,8 +123,8 @@ function getGar (){
 
     // Set AdMobAds options:
     admob.setOptions({
-        publisherId:          "ca-app-pub-3864996818231266/7648520433",  // Required
-        interstitialAdId:     "ca-app-pub-3864996818231266/5461730435",  // Optional
+        publisherId:          "ca-app-pub-3864996818231266/7057824031",  // Required banner
+        interstitialAdId:     "ca-app-pub-3864996818231266/8666836839",  // Optional full screen
         // tappxIdiOS:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Optional
         // tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Optional
         // tappxShare:           0.5                                        // Optional
