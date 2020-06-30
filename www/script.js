@@ -6,7 +6,7 @@ document.querySelector('.mdl-layout__drawer').addEventListener('click', function
 
 //go home page
 function getHome() {
-  document.getElementById('root').innerHTML = "<img src='./img/bg.gif' width='100%' height='100%'></div></div>";
+  document.getElementById('root').innerHTML = "<img src='./img/earth.gif' width='100%' height='100%'></div></div>";
 }
 document.getElementById('home-btn').addEventListener('click', getHome);
 document.getElementById('demo-avatar').addEventListener('click', getHome);
@@ -124,42 +124,6 @@ document.getElementById("content-app").innerHTML = "<div class='loader'></div>";
       content: "Decimal Chart",
       url: "img/18.jpg",
       urlToImage: "img/18.jpg"
-    },{
-      id: 2038,
-      title: "Rpm",
-      content: "Rpm",
-      url: "img/19.jpg",
-      urlToImage: "img/19.jpg"
-    },{
-      id: 2039,
-      title: "Tap/Drill Chart",
-      content: "Tap/Drill Chart",
-      url: "img/20.jpg",
-      urlToImage: "img/20.jpg"
-    },{
-      id: 2040,
-      title: "Inch/Metric Chart",
-      content: "Inch/Metric Chart",
-      url: "img/21.jpg",
-      urlToImage: "img/21.jpg"
-    },{
-      id: 2041,
-      title: "Sheet Metal Charts",
-      content: "Sheet Metal Charts",
-      url: "img/22.jpg",
-      urlToImage: "img/22.jpg"
-    },{
-      id: 2042,
-      title: "Weld Details",
-      content: "Weld Details",
-      url: "img/23.jpg",
-      urlToImage: "img/23.jpg"
-    },{
-      id: 2043,
-      title: "Metal Inert Gas",
-      content: "Metal Inert Gas",
-      url: "img/24.jpg",
-      urlToImage: "img/24.jpg"
     }
   ];
   let list = "";
