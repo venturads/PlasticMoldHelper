@@ -182,8 +182,8 @@ getData();
     document.removeEventListener('deviceready', onDeviceReady, false);
     // Set AdMobAds options:
     admob.setOptions({
-      publisherId:          "ca-app-pub-3864996818231266/9804421234",  // Required Banner ads
-      interstitialAdId:     "ca-app-pub-3864996818231266/1155086435",  // Optional Full screen ads
+      publisherId:          "ca-app-pub-3864996818231266/7057824031",  // Required Banner ads
+      interstitialAdId:     "ca-app-pub-3864996818231266/8666836839",  // Optional Full screen ads
         // tappxIdiOS:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Optional
         // tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Optional
         // tappxShare:           0.5                                        // Optional
